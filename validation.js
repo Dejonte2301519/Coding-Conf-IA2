@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const file = avatarInput.files[0];
         avatarData = "";
         uploadText.textContent = "Drag and drop or click to upload";
-        uploadIcon.src = "../assets/images/icon-upload.svg";
+        uploadIcon.src = "icon-upload.svg";
         uploadIcon.classList.remove("upload-preview");
         showError("avatarError", "");
         if (!file) {
@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
             fullName: fullName,
             email: email,
             github: github,
-            avatar: avatarData || "../assets/images/image-avatar.jpg",
+            avatar: avatarData || "image-avatar.jpg",
             ticketId: ticketNumber
         };
         /* SAVE REGISTRATION */
