@@ -19,7 +19,7 @@ body {
     overflow-x: hidden;
     color: var(--white);
     font-family: 'Inconsolata', 'Courier New', monospace;
-    background: var(--bg) url('../assets/images/background-desktop.png')
+    background: var(--bg) url('../background-desktop.png')
         center top / cover no-repeat;
     position: relative;
 }
@@ -30,10 +30,10 @@ body {
     inset: 0;
     pointer-events: none;
     background:
-        url('../assets/images/pattern-lines.svg') no-repeat center top 2rem,
-        url('../assets/images/pattern-circle.svg') no-repeat left top 2rem,
-        url('../assets/images/pattern-squiggly-line-top.svg') no-repeat right 5% top 3rem,
-        url('../assets/images/pattern-squiggly-line-bottom-desktop.svg') no-repeat left bottom;
+        url('../pattern-lines.svg') no-repeat center top 2rem,
+        url('../pattern-circle.svg') no-repeat left top 2rem,
+        url('../pattern-squiggly-line-top.svg') no-repeat right 5% top 3rem,
+        url('../pattern-squiggly-line-bottom-desktop.svg') no-repeat left bottom;
     background-size:
         100% 100%,
         15vw,
@@ -72,7 +72,6 @@ h1 {
     font-size: .85rem;
 }
 /* LANDING PAGE */
-
 .landing-main {
     min-height: 65vh;
     display: grid;
@@ -80,7 +79,6 @@ h1 {
     align-items: center;
     gap: 3rem;
 }
-
 .landing-content {
     max-width: 43rem;
 }
@@ -294,7 +292,6 @@ input:not([type='file']) {
     text-align: center;
 }
 /*  TICKET PAGE */
-
 .ticket-main {
     width: 100%;
     max-width: 55rem;
@@ -334,7 +331,7 @@ input:not([type='file']) {
     min-height: 0;
     padding: 0;
     overflow: hidden;
-    background: url('../assets/images/pattern-ticket.svg')
+    background: url('../pattern-ticket.svg')
         center / 100% 100% no-repeat;
     text-align: left;
 }
@@ -453,16 +450,16 @@ input:not([type='file']) {
 @media (max-width: 900px) {
 
     body {
-        background-image: url('../assets/images/background-tablet.png');
+        background-image: url('../background-tablet.png');
         background-position: center top;
         background-size: cover;
     }
     .background-decoration {
        background:
-        url('../assets/images/pattern-lines.svg') no-repeat center top 2rem,
-        url('../assets/images/pattern-circle.svg') no-repeat left top 2rem,
-        url('../assets/images/pattern-squiggly-line-top.svg') no-repeat right 5% top 3rem,
-        url('../assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg') no-repeat left bottom;
+        url('../pattern-lines.svg') no-repeat center top 2rem,
+        url('../pattern-circle.svg') no-repeat left top 2rem,
+        url('../pattern-squiggly-line-top.svg') no-repeat right 5% top 3rem,
+        url('../pattern-squiggly-line-bottom-mobile-tablet.svg') no-repeat left bottom;
     background-size:
         200vm,
         15vw,
@@ -542,7 +539,7 @@ input:not([type='file']) {
     body {
         padding: 1.25rem 1rem .8rem;
         background-color: var(--bg);
-        background-image: url('../assets/images/background-mobile.png');
+        background-image: url('../background-mobile.png');
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -550,10 +547,10 @@ input:not([type='file']) {
     /* the best i could do for the phone backgroud miss*/
     .background-decoration {
      background:
-        url('../assets/images/pattern-lines.svg') no-repeat center top 3rem,
-        url('../assets/images/pattern-circle.svg') no-repeat left top 1rem,
-        url('../assets/images/pattern-squiggly-line-top.svg') no-repeat right 1% top 2rem,
-        url('../assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg') no-repeat left bottom;
+        url('../pattern-lines.svg') no-repeat center top 3rem,
+        url('../pattern-circle.svg') no-repeat left top 1rem,
+        url('../pattern-squiggly-line-top.svg') no-repeat right 1% top 2rem,
+        url('../pattern-squiggly-line-bottom-mobile-tablet.svg') no-repeat left bottom;
     background-size:
         65vm,
         5vw,
